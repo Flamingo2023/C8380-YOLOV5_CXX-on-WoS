@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "demo_yolov5_based_qnn_cpp", "demo_yolov5_based_qnn_cpp.vcxproj", "{200BA7BF-6BB2-4C1C-9BD3-882BB1AF93DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM64 = Debug|ARM64
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM64 = Release|ARM64
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{200BA7BF-6BB2-4C1C-9BD3-882BB1AF93DF}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{200BA7BF-6BB2-4C1C-9BD3-882BB1AF93DF}.Debug|ARM64.Build.0 = Debug|ARM64
+		{200BA7BF-6BB2-4C1C-9BD3-882BB1AF93DF}.Debug|x64.ActiveCfg = Debug|x64
+		{200BA7BF-6BB2-4C1C-9BD3-882BB1AF93DF}.Debug|x64.Build.0 = Debug|x64
+		{200BA7BF-6BB2-4C1C-9BD3-882BB1AF93DF}.Debug|x86.ActiveCfg = Debug|Win32
+		{200BA7BF-6BB2-4C1C-9BD3-882BB1AF93DF}.Debug|x86.Build.0 = Debug|Win32
+		{200BA7BF-6BB2-4C1C-9BD3-882BB1AF93DF}.Release|ARM64.ActiveCfg = Release|ARM64
+		{200BA7BF-6BB2-4C1C-9BD3-882BB1AF93DF}.Release|ARM64.Build.0 = Release|ARM64
+		{200BA7BF-6BB2-4C1C-9BD3-882BB1AF93DF}.Release|x64.ActiveCfg = Release|x64
+		{200BA7BF-6BB2-4C1C-9BD3-882BB1AF93DF}.Release|x64.Build.0 = Release|x64
+		{200BA7BF-6BB2-4C1C-9BD3-882BB1AF93DF}.Release|x86.ActiveCfg = Release|Win32
+		{200BA7BF-6BB2-4C1C-9BD3-882BB1AF93DF}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8B1FF07D-D8BA-4394-B817-7D412259EA9C}
+	EndGlobalSection
+EndGlobal
