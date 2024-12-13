@@ -18,7 +18,7 @@ cd vcpkg ; .\bootstrap-vcpkg.bat
 ## 4. 安装QNN SDK(AI Engine Direct)
 登录高通官网下载并安装[QNN SDK软件包](https://qpm.qualcomm.com/#/main/tools/details/qualcomm_ai_engine_direct)，这里选择安装2.24.0.240626版本。
 
-安装万仇，需配置环境，相关指令如下：
+安装完成，需配置环境，相关指令如下：
 ```powershell
 & "C:\Qualcomm\AIStack\QAIRT\2.24.0.240626\bin\envsetup.ps1"
 ```

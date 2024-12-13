@@ -125,12 +125,12 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">
-    <IncludePath>C:\Users\HCKTest\source\repos\demo_yolov5_based_qnn_cpp\appbuilder\src;C:\Users\HCKTest\source\repos\demo_yolov5_based_qnn_cpp\vcpkg_installed\arm64-windows\arm64-windows\include\opencv4;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\HCKTest\source\repos\demo_yolov5_based_qnn_cpp\appbuilder\lib\Debug;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(ProjectDir)appbuilder\src;$(ProjectDir)vcpkg_installed\arm64-windows\arm64-windows\include\opencv4;$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)appbuilder\lib\Debug;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">
-    <IncludePath>C:\Users\HCKTest\source\repos\demo_yolov5_based_qnn_cpp\appbuilder\src;C:\Users\HCKTest\source\repos\demo_yolov5_based_qnn_cpp\vcpkg_installed\arm64-windows\arm64-windows\include\opencv4;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\HCKTest\source\repos\demo_yolov5_based_qnn_cpp\appbuilder\lib\Release;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(ProjectDir)appbuilder\src;$(ProjectDir)vcpkg_installed\arm64-windows\arm64-windows\include\opencv4;$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)appbuilder\lib\Release;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Label="Vcpkg">
     <VcpkgEnableManifest>true</VcpkgEnableManifest>

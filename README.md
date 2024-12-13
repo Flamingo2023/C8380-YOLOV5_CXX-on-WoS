@@ -41,6 +41,6 @@ cd ..\..
 
 - Compile this Demo
 
-Double-click the file `demo_yolov5_based_qnn_cpp\demo_yolov5_based_qnn_cpp.sln` to start Visual Studio, select the configuration ARM64+Debug or ARM64+Release, and run it using Debug -> Start Without Debugging.
+Double-click the file `demo_yolov5_based_qnn_cpp\demo_yolov5_based_qnn_cpp.sln` to start Visual Studio, select the configuration ARM64+Debug or ARM64+Release, and run it using Debug -> Start Without Debugging.If you receive a message indicating that libappbuilder.dll cannot be found, you need to copy the libappbuilder.dll generated from the compilation above to the directory where the .exe file is located.
 
 This demo program first performs object detection on two images in the `images` directory and displays the detection results. Then, by pressing the 'n' key, it exits image detection and starts capturing from the USB camera for object detection, while simultaneously displaying the detection results in real-time.
